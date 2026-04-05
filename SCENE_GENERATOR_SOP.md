@@ -64,15 +64,19 @@ Example dog lock: "a medium-sized dog with a fluffy warm tan coat, rounded black
 
 Example human lock: "a woman in her early 30s with medium brown skin, dark shoulder-length hair tucked behind one ear, wearing a solid red round-neck jumper and cream trousers, simplified flat cartoon style, clean black outlines, no shading"
 
-**B. Write a MASTER REFERENCE IMAGE PROMPT for each character**
-This is a single standalone image prompt the user will generate once and upload to their image tool as a character reference. It must show the character clearly, on a plain background, in a neutral pose that reveals all key features.
+**B. Write MASTER REFERENCE IMAGE PROMPTS**
+There are always exactly 2 reference images — no more, no less:
+- Reference Image 1: all human characters together in one image, standing side by side
+- Reference Image 2: all animal characters together in one image
+
+If the script has no animals, use Reference Image 2 for any remaining non-human characters or leave a note that only one reference image is needed.
 
 Rules for master reference prompts:
-- Plain cream background, no setting, no props, no other characters
-- Character centered in frame, front-facing or three-quarter view
-- Full body visible from head to toe
+- Plain cream background, no setting, no props
+- All characters in the image shown full body, side by side, evenly spaced
+- Each character front-facing or three-quarter view
 - Neutral relaxed expression and pose — this is a reference sheet, not a scene
-- Include every detail from the CHARACTER LOCK
+- Include every detail from each character's CHARACTER LOCK
 - Open with: "Flat 2D hand-drawn illustration, character reference sheet,"
 - End with: "plain cream background, no other elements, 16:9 aspect ratio."
 
@@ -83,8 +87,8 @@ CHARACTER LOCKS:
 [Character name]: [full lock string]
 
 MASTER REFERENCE IMAGE PROMPTS (generate these first, then upload as character references):
-[Character name]: [full reference prompt]
-[Character name]: [full reference prompt]
+Reference Image 1 — Humans: [full prompt with all human characters side by side]
+Reference Image 2 — Animals: [full prompt with all animal characters side by side]
 
 ---
 
