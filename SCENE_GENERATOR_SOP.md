@@ -210,7 +210,9 @@ Abstract or conceptual scenes:
 
 ### CHARACTER CONSISTENCY RULE
 
-Every prompt containing a character must include that character's full CHARACTER LOCK string verbatim. Never shorten it. The image tool has no memory — it must receive the full description every time to maintain consistency.
+Since the user uploads reference images to the image tool before generating scene prompts, the tool already knows what each character looks like. Do NOT repeat physical descriptions in scene prompts. Refer to characters by their simple name only: "the dog", "the woman", "the man", etc.
+
+Use every word saved on appearance to describe the scene instead — the composition, body language, emotional intent, spatial relationships, visual metaphor, and mood.
 
 ---
 
